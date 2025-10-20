@@ -1,0 +1,12 @@
+
+version: "3"
+services:
+  pythonapp:
+    image: dockersyampawan/python-demo-app:VERSION
+    ports:
+    - 5000:5000
+    networks:
+    - studentregbridge
+networks:
+  studentregbridge:
+    driver: bridge
