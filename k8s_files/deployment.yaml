@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: pythondemoapp
-        image: dockersyampawan/python-demo-app:7
+        image: dockersyampawan/python-demo-app:6
         ports:
         - containerPort: 5000
         resources:
